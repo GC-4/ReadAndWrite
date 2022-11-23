@@ -3,6 +3,7 @@ package com.rcv.readdata;
 import java.io.FileInputStream;
 //import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.management.OperatingSystemMXBean;
 import java.util.Properties;
 
 public class ReadDataPractice2 {
@@ -16,6 +17,7 @@ public class ReadDataPractice2 {
 		property.load(fis);
 		
 		System.out.println(property.getProperty("Country"));
+		System.out.println("Today it is sunny and not cloudy");
 		
 	}
 
